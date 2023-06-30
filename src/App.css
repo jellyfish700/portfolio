@@ -1,30 +1,111 @@
-。App{
+.App{
     width: 100%;
     height:100hv;
     font-size: 18px;
+    color: #A2997F;
 }
 header{
     display: flex;
     justify-content: space-around;
     align-items: center;
-    background-color: gray;
-    color: white;
+    background-color: #CFDEDF;
     width: 100%;
     z-index: 100;
-}
-header .logo h3{
-    font-size: 30px;
+    position: sticky;
+    top: 0;
+    height: 60px;
 }
 nav ul li{
     list-style: none;
     display: inline-block;
-    margin-right:30px;
+    margin-right:50px;
 }
 nav ul li a {
     text-decoration: none;
-    color: white;
+    color: #A2997F;
     transition: all 0.2s;
+    font-size: 28px;
 }
 nav ul li a:hover{
-    color: aqua;
+    color: white;
+}
+nav{
+    margin-left: 270px;
+}
+/* text */
+.first{
+    margin-top: -100px;
+    height: 700px;
+    background-color: #CFDEDF;
+}
+.fs-1{
+    font-size: 100px;
+    font-weight: bold;
+}
+.fs-2{
+    font-size: 50px;
+    font-weight: bold;
+}
+.fs-3{
+    font-size: 32px;
+    font-weight: bold;
+}
+.fs-4{
+    font-size: 24px;
+    font-weight: bold;
+}
+.fs-5{
+    font-size: 18px;
+    font-weight: bold;
+}
+.tx-p{
+    text-align: center;
+    padding-top: 200px; 
+}
+.tx-p2{
+    text-align: center;
+}
+.tx-p3{
+    text-align: center;
+    padding-bottom: 20px; 
+}
+
+
+.left{
+    float: left;
+}
+.wrap{
+    display:flex;
+}
+.mt-5{
+    margin-top: 50px;
+}
+.mb-5{
+    margin-bottom: 50px;
+}
+/* about */
+.imgage-girl{
+    padding-left: 100px;
+}
+.about{
+    padding-left: 100px;
+    width: 600px;
+}
+
+/*card*/
+.card{
+    background-color: #A2997F !important;
+    color: white;
+    margin-left: 100px;
+    margin-bottom: 100px;
+    width:40%;
+}
+.image-card{
+    padding-top: 30px;
+    padding-left: 50px;
+    padding-bottom: 50px;
+    width: 90%;
+}
+.card-row{
+    height: 600px;
 }

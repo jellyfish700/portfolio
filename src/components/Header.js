@@ -1,22 +1,30 @@
 import React from 'react'
+import person from './image/person.svg'
+import pc from './image/pc.svg'
+import file from './image/file.svg'
+import mail from './image/mail.svg'
+
+
+
+
 
 const Header = () => {
   return (
     <header>
-      <div className='logo'>
-        <h3>ポートフォリオ</h3>
-      </div>
-
       <nav>
         <ul>
           <li>
-            <a href='#'>ホーム</a>
+            <a href='#'><img src={person} alt="" />ABOUT</a>
           </li>
           <li>
-            <a href='#'>ブログ</a>
+            <a href='#'><img src={file} alt="" />WORK</a>
           </li>
           <li>
-            <a href='#'>SNS</a>
+            <a href='#'><img src={pc} alt="" />SKILL</a>
+          </li>
+         
+          <li>
+            <a href='#'><img src={mail} alt="" />CONTACT</a>
           </li>
         </ul>
       </nav>
