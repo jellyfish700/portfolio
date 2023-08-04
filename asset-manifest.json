@@ -1,0 +1,21 @@
+{
+  "files": {
+    "main.css": "/cart-react/static/css/main.0ff34099.css",
+    "main.js": "/cart-react/static/js/main.cee062ed.js",
+    "static/media/girl.svg": "/cart-react/static/media/girl.0bd19be58211b9933dde824b659bab98.svg",
+    "static/media/image2.svg": "/cart-react/static/media/image2.32fbfabdc2b83a9f50a0217473303520.svg",
+    "static/media/image1.svg": "/cart-react/static/media/image1.43a3c89b7058bd69bc0986e8b063d82f.svg",
+    "static/media/image3.svg": "/cart-react/static/media/image3.af85ff747d5e80969980ae5904077287.svg",
+    "static/media/file.svg": "/cart-react/static/media/file.c346cf1f7dd209db2d205936d8f137d1.svg",
+    "static/media/mail.svg": "/cart-react/static/media/mail.3451ce0fae72d2af28d424f65556260d.svg",
+    "static/media/person.svg": "/cart-react/static/media/person.a5b083ae63ec0e56e9a9e8bceecd9ff0.svg",
+    "static/media/pc.svg": "/cart-react/static/media/pc.7bf04a25e026ec3c85d44a2ede83a9a8.svg",
+    "index.html": "/cart-react/index.html",
+    "main.0ff34099.css.map": "/cart-react/static/css/main.0ff34099.css.map",
+    "main.cee062ed.js.map": "/cart-react/static/js/main.cee062ed.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.0ff34099.css",
+    "static/js/main.cee062ed.js"
+  ]
+}
