@@ -4,7 +4,6 @@ import Card from 'react-bootstrap/Card';
 import image1 from './image/image1.svg'
 import image2 from './image/image2.svg'
 import image3 from './image/image3.svg'
-import image4 from './image/diary.png'
 const Work = () => {
   return (
     <div>
@@ -28,21 +27,12 @@ const Work = () => {
         </Card.Body>
       </Card>
 
-      <Card className="card left card-row ">
-        <Card.Img class="image-card image3" variant="top" src={image3} />
+      <Card className="card">
+        <Card.Img class="image-card" variant="top" src={image3} />
         <Card.Body>
           <Card.Title class="fs-3 tx-p3">人気な曲を教えてくれる<br></br>チャットbot</Card.Title>
           <p class="fs-4 tx-p2">Python / janome / tkinter</p>
           <p class="fs-5 tx-p2">アーティスト名を入力するとそのアーティストの人気な曲が出力されるチャットbotを作成しました。入力された文字列を形態素解析するために、janomeを使用しました。描画ライブラリはtkinterを使用しています。</p>
-        </Card.Body>
-      </Card>
-
-      <Card className="card left card-row ">
-        <Card.Img class="image-card image4" variant="top" src={image4} />
-        <Card.Body>
-          <Card.Title class="fs-3 tx-p3">認知症予防の日記サービス</Card.Title>
-          <p class="fs-4 tx-p2">aws / Vue / Node.js</p>
-          <p class="fs-5 tx-p2"></p>
         </Card.Body>
       </Card>
 
