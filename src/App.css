@@ -102,10 +102,17 @@ nav{
 }
 .image-card{
     padding-top: 30px;
-    padding-left: 50px;
-    padding-bottom: 50px;
-    width: 90%;
+    padding-bottom: 5px;
 }
-.card-row{
-    height: 700px;
+.image-height-m{
+    height: 50%;
+}
+.image-height-l{
+    height: 500px;
+}
+.card-row-m{
+    height: 550px;
+}
+.card-row-l{
+    height: 850px;
 }
