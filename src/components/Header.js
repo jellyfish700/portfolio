@@ -14,17 +14,17 @@ const Header = () => {
       <nav>
         <ul>
           <li>
-            <a href='#'><img src={person} alt="" />ABOUT</a>
+            <a href='#'><img src={person} alt="" class="icon"/>ABOUT</a>
           </li>
           <li>
-            <a href='#'><img src={file} alt="" />WORK</a>
+            <a href='#'><img src={file} alt="" class="icon"/>WORK</a>
           </li>
           <li>
-            <a href='#'><img src={pc} alt="" />SKILL</a>
+            <a href='#'><img src={pc} alt="" class="icon"/>SKILL</a>
           </li>
          
           <li>
-            <a href='#'><img src={mail} alt="" />CONTACT</a>
+            <a href='#'><img src={mail} alt="" class="icon"/>CONTACT</a>
           </li>
         </ul>
       </nav>
