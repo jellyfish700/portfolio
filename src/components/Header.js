@@ -24,7 +24,7 @@ const Header = () => {
           </li>
          
           <li>
-            <a href='#'><img src={mail} alt="" class="icon"/>CONTACT</a>
+            <a href='#'><img src={mail} alt="" />CONTACT</a>
           </li>
         </ul>
       </nav>
