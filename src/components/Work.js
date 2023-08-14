@@ -1,51 +1,73 @@
 import React from 'react'
 import Card from 'react-bootstrap/Card';
+import WorkCard from './WorkCard.js'
 
 import image1 from './image/image1.svg'
 import image2 from './image/image2.svg'
 import image3 from './image/image3.svg'
 import image4 from './image/image4.svg'
-const Work = () => {
+
+import d0 from './image/diary0.svg'
+import d1 from './image/diary1.svg'
+import d2 from './image/diary2.svg'
+import d3 from './image/diary3.svg'
+import d4 from './image/diary4.svg'
+import d5 from './image/diary5.svg'
+import d6 from './image/diary6.svg'
+import d7 from './image/diary7.svg'
+import d8 from './image/diary8.svg'
+
+// const img = [d0,d1,d2,d3,d4,d5,d6,d7,d8];
+const Work = ({title,skill,about}) => {
   return (
+   
+
     <div>
       <p class="fs-2 tx-p2 mb-5">WORK</p> 
       <div class="wrap">
-        <Card className="card left card-row-m">
-          <Card.Img class="image-card image-height-m" variant="top" src={image1} />
-          <Card.Body>
-            <Card.Title class="fs-3 tx-p3">ポートフォリオ</Card.Title>
-            <p class="fs-4 tx-p2">HTML / CSS / JavaScript / React</p>
-            <p class="fs-5 tx-p2">JavaScriptで作成し、ライブラリはReactを使用しています。フレームワークはBootStrapを使用しています。レスポンシブにも対応させる予定です。</p>
-          </Card.Body>
-        </Card>
-        <Card className="card left card-row-m">
-          <Card.Img class="image-card image-height-m" variant="top" src={image2} />
-          <Card.Body>
-            <Card.Title class="fs-3 tx-p3">学習向けソフトウェア</Card.Title>
-            <p class="fs-4 tx-p2">Python / tkinter</p>
-            <p class="fs-5 tx-p2">矢印をダイヤまで動かすことができます。ダイヤまで進むと、その動きをPythonで実行した時のテキストが表示されるようになっていて、学習者向けのソフトウェアを作成しました。描画ライブラリはtkinterを使用しています。</p>
-          </Card.Body>
-        </Card>
+        <WorkCard 
+          class={"card left card-row-m"}
+          classtx={"fs-3 tx-p4"}
+          title={"ポートフォリオ"}
+          image={[image1]}
+          classimg={"image_w"}
+          skill={"HTML / CSS / JavaScript / React"}
+          about={"JavaScriptで作成し、ライブラリはReactを使用しています。フレームワークはBootStrapを使用しています。レスポンシブにも対応させる予定です。"}
+        />
+        <WorkCard 
+          class={"card left card-row-m"}
+          classtx={"fs-3 tx-p4"}
+          title={"学習向けソフトウェア"}
+          image={[image2]}
+          classimg={"image_w"}
+          skill={"Python / tkinter"}
+          about={"矢印をダイヤまで動かすことができます。ダイヤまで進むと、その動きをPythonで実行した時のテキストが表示されるようになっています。描画ライブラリはtkinterを使用しています。"}
+        />
       </div>
       <div class="wrap">
-        <Card className="card left card-row-l">
-          <Card.Img class="image-card image-height-l" variant="top" src={image3} />
-          <Card.Body>
-            <Card.Title class="fs-3 tx-p3">チャットbot</Card.Title>
-            <p class="fs-4 tx-p2">Python / janome / tkinter</p>
-            <p class="fs-5 tx-p2">アーティスト名を入力するとそのアーティストの人気な曲が出力されるチャットbotを作成しました。入力された文字列を形態素解析するために、janomeを使用しました。描画ライブラリはtkinterを使用しています。</p>
-          </Card.Body>
-        </Card>
-        <Card className="card left card-row-l">
-          <Card.Img class="image-card image-height-l" variant="top" src={image4} />
-          <Card.Body>
-            <Card.Title class="fs-3 tx-p3">認知症予防の日記サービス</Card.Title>
-            <p class="fs-4 tx-p2">aws / Vue / node.js</p>
-            <p class="fs-5 tx-p2">株式会社エムティーアイのインターンで、チーム開発しました。日記の投稿、削除、検索、色やフォントの変更ができます。</p>
-          </Card.Body>
-        </Card>
+        <WorkCard 
+          class={"card left card-row-l"}
+          classtx={"fs-3 tx-p3"}
+          title={"チャットbot"}
+          image={[image3]}
+          classimg={"image_h"}
+          skill={"Python / janome / tkinter"}
+          about={"アーティスト名を入力するとそのアーティストの人気な曲が出力されるチャットbotを作成しました。入力された文字列を形態素解析するために、janomeを使用しました。描画ライブラリはtkinterを使用しています。"}
+        />
+        <WorkCard 
+          class={"card left card-row-l"}
+          classtx={"fs-3 tx-p3"}
+          title={"認知症予防の日記サービス"}
+          image={[d0,d1,d2,d3,d4,d5,d6,d7,d8]}
+          classimg={"image_h"}
+          skill={"aws / Vue / node.js"}
+          about={"株式会社エムティーアイのインターンで、チーム開発しました。日記の投稿、削除、検索、色やフォントの変更ができます。"}
+        />
       </div>
     </div>
+
+
+    
   )
 }
 
