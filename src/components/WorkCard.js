@@ -26,6 +26,7 @@ function WorkCard (props){
             <Card.Title class={props.classtx}>{props.title}</Card.Title>
             <p class="fs-4 tx-p2">{props.skill}</p>
             <p class="fs-5 tx-p2">{props.about}</p>
+            <a class="fs-5 tx-p2 tx-color" href={props.link}>{props.link}</a>
          </Card.Body>
      </Card>
 

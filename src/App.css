@@ -18,7 +18,7 @@ header{
 nav ul li{
     list-style: none;
     display: inline-block;
-    margin-right:50px;
+    margin-right:30px;
     margin-top: 20px;
 }
 nav ul li a {
@@ -68,6 +68,7 @@ nav{
 }
 .tx-p3{
     text-align: center;
+    margin-top: -30px;
     margin-bottom: 20px; 
 }
 .tx-p4{
@@ -75,7 +76,12 @@ nav{
     margin-top: -50px;
     margin-bottom: 10px; 
 }
-
+.tx-color{
+    color: white;
+}
+.tx-color:hover{
+    color: white;
+}
 
 .left{
     float: left;
@@ -113,19 +119,19 @@ nav{
     margin-left: 10px;
 }
 .card-row-m{
-    height: 550px;
+    height: 650px;
 }
 .card-row-l{
     height: 800px;
 }
 .mySwiper{
-    width: 100%;
-    height: 80%;
+    width: 80%;
+    height: 70%;
 }
 .image_h{
     margin: auto;
     display: block;
-    height: 95%;
+    height: 85%;
     margin-top: 30px;
 }
 .image_w{

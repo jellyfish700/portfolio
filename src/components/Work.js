@@ -33,6 +33,7 @@ const Work = ({title,skill,about}) => {
           classimg={"image_w"}
           skill={"HTML / CSS / JavaScript / React"}
           about={"JavaScriptで作成し、ライブラリはReactを使用しています。フレームワークはBootStrapを使用しています。レスポンシブにも対応させる予定です。"}
+          link={"https://github.com/jellyfish700/portfolio"}
         />
         <WorkCard 
           class={"card left card-row-m"}
@@ -53,6 +54,7 @@ const Work = ({title,skill,about}) => {
           classimg={"image_h"}
           skill={"Python / janome / tkinter"}
           about={"アーティスト名を入力するとそのアーティストの人気な曲が出力されるチャットbotを作成しました。入力された文字列を形態素解析するために、janomeを使用しました。描画ライブラリはtkinterを使用しています。"}
+          link={"https://github.com/jellyfish700/spotify-web-api-chatbot"}
         />
         <WorkCard 
           class={"card left card-row-l"}
@@ -62,6 +64,7 @@ const Work = ({title,skill,about}) => {
           classimg={"image_h"}
           skill={"aws / Vue / node.js"}
           about={"株式会社エムティーアイのインターンで、チーム開発しました。日記の投稿、削除、検索、色やフォントの変更ができます。"}
+          link={"https://github.com/jellyfish700/mti-intern"}
         />
       </div>
     </div>
