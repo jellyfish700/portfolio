@@ -55,7 +55,7 @@ const Work = ({title,skill,about}) => {
         <WorkCard 
           title={"関連アーティスト可視化ソフトウェア"}
           image={[image5]}
-          classimg={"image_w"}
+          classimg={"cardImageW cardImage"}
           skill={"Java / Processing"}
           about={"指定したアーティストの関連情報が可視化できます。SpotifyAPIを使用して、関連情報を入手しています。"}
           link={"https://github.com/jellyfish700/spotify-web-api-relevance"}
