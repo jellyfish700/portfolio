@@ -95,22 +95,26 @@ nav ul li a:hover{
     font-size: 20px;
     font-weight: bold;
 }
-.tx-p{
+.textCenter{
+    text-align: center;
+}
+.titlePosition{
+    text-align: center;
+    padding-top: 50px; 
+}
+.topTextPosition{
     text-align: center;
     padding-top: 250px; 
 }
-.tx-p2{
-    text-align: center;
-}
-.tx-p3{
+.cardTextPosition{
     text-align: center;
     margin-top: -50px;
     margin-bottom: 10px; 
 }
-.tx-color{
+.textColor{
     color: white;
 }
-.tx-color:hover{
+.textColor:hover{
     color: white;
 }
 
@@ -124,28 +128,15 @@ nav ul li a:hover{
         margin: 0 auto;
     }
 } 
-.mt-3{
+.mt30{
     margin-top: 30px;
 }
-.mt-5{
-    margin-top: 50px;
-}
-.mb-5{
-    margin-bottom: 50px;
-}
 /* about */
-.imgage-girl{
-    margin-top: -50px;
-    margin-left: 50px;
-}
 .about{
     width: 600px;
 }
 
 @media (max-width: 1024px) {
-    .imgage-girl{
-        width: 350px;
-    }
     .about{
         width: 450px;
     }
@@ -154,9 +145,6 @@ nav ul li a:hover{
     }
 } 
 @media (max-width: 768px) {
-    .imgage-girl{
-        width: 300px;
-    }
     .about{
         width: 450px;
     }
@@ -188,25 +176,20 @@ nav ul li a:hover{
     margin-bottom: 5px;
     margin-right: 1px;
 }
-
-.card-row-l{
-    height: 800px;
-}
 .mySwiper{
     width: 80%;
     height: 70%;
 }
-.image_h{
+.cardImage{
     margin: auto;
     display: block;
-    width: 60%;
     margin-top: 30px;
 }
-.image_w{
-    margin: auto;
-    display: block;
-    width: 75%;
-    margin-top: 30px;
+.cardImageH{
+    width: 30%;
+}
+.cardImageW{
+    width: 55%;
 }
 .cardWrap{
     display: flex;
@@ -214,6 +197,6 @@ nav ul li a:hover{
 
 /* skill */
 .skill{
-    width: 80%;
+    width: 70%;
     margin: 0 auto;
 }
