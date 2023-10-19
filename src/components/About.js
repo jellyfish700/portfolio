@@ -5,7 +5,7 @@ const About = () => {
   return (
     <div>
       <p class="fontSize2 tx-p2 mt-5 mb-5">ABOUT</p>
-      <div class="wrap">
+      <div class="aboutWrap">
         <div class="imageWrap">
           <img class="imgageGirl" src={girl} alt="" />
         </div>

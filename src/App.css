@@ -118,8 +118,10 @@ nav ul li a:hover{
     .left{
         float: left;
     }
-    .wrap{
+    .aboutWrap{
         display:flex;
+        width: 1000px;
+        margin: 0 auto;
     }
 } 
 .mt-3{
@@ -139,12 +141,16 @@ nav ul li a:hover{
 .about{
     width: 600px;
 }
+
 @media (max-width: 1024px) {
     .imgage-girl{
         width: 350px;
     }
     .about{
         width: 450px;
+    }
+    .aboutWrap{
+        width: 800px;
     }
 } 
 @media (max-width: 768px) {
@@ -153,6 +159,9 @@ nav ul li a:hover{
     }
     .about{
         width: 450px;
+    }
+    .aboutWrap{
+        width: 600px;
     }
 }
 @media (max-width: 640px) {
