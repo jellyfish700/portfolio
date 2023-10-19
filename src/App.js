@@ -12,8 +12,8 @@ function App() {
     <div className="App">
       <First />
       <Header />
-      <About />
-      <Work />
+      {/* <About />
+      <Work /> */}
       {/* <Skill />
       <Contact /> */}
       

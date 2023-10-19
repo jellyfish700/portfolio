@@ -3,6 +3,16 @@
     font-size: 18px;
     color: #A2997F;
 }
+@media (max-width: 640px) {
+    .pc{
+        display:none;
+    }
+}
+@media (min-width: 641px) {
+    .mobile{
+        display:none;
+    }
+}
 header{
     position: sticky;
     background-color: #CFDEDF;
@@ -11,13 +21,23 @@ header{
     height: 60px;
 }
 nav{
-    width: 700px;
+    width: 640px;
     margin: auto;
 }
+@media (max-width: 640px) {
+    nav{
+      width: 100%;
+    }
+} 
 nav ul li{
     list-style: none;
     display: inline-block;
-    margin-top: 10px;
+    margin-top: -5px;
+}
+@media (max-width: 640px) {
+    nav ul li{
+        display: flex;
+    }
 }
 nav ul li a {
     text-decoration: none;
@@ -29,7 +49,14 @@ nav ul li a {
 nav ul li a:hover{
     color: white;
 }
-
+.topButton{
+    color: #A2997F !important;
+    margin-top: 5px;
+    margin-left: 10px;
+}
+.navbar-collapse{
+    background-color: #CFDEDF;
+}
 /* text */
 .first{
     margin-top: -100px;
@@ -40,6 +67,21 @@ nav ul li a:hover{
     font-size: 120px;
     font-weight: bold;
 }
+@media (max-width: 1024px) {
+    .fs-1{
+        font-size: 100px;
+    }
+} 
+@media (max-width: 768px) {
+    .fs-1{
+        font-size: 80px;
+    }
+}
+@media (max-width: 640px) {
+    .fs-1{
+        font-size: 50px;
+    }
+} 
 .fs-2{
     font-size: 50px;
     font-weight: bold;
