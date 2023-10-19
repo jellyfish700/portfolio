@@ -1,5 +1,6 @@
 .App{
-    width: 100%;
+    margin: 0 auto ;
+    max-width: 1284px;
     font-size: 18px;
     color: #A2997F;
 }
@@ -13,6 +14,8 @@
         display:none;
     }
 }
+
+/* header */
 header{
     position: sticky;
     background-color: #CFDEDF;
@@ -57,6 +60,7 @@ nav ul li a:hover{
 .navbar-collapse{
     background-color: #CFDEDF;
 }
+
 /* text */
 .first{
     margin-top: -100px;
@@ -122,12 +126,14 @@ nav ul li a:hover{
     color: white;
 }
 
-.left{
-    float: left;
-}
-.wrap{
-    display:flex;
-}
+@media (min-width: 640px) {
+    .left{
+        float: left;
+    }
+    .wrap{
+        display:flex;
+    }
+} 
 .mt-5{
     margin-top: 50px;
 }
@@ -136,15 +142,41 @@ nav ul li a:hover{
 }
 /* about */
 .imgage-girl{
-    margin-left: 100px;
     margin-top: -50px;
-    
+    margin-left: 50px;
 }
 .about{
-    padding-left: 100px;
-    width: 700px;
+    width: 600px;
 }
-
+@media (max-width: 1024px) {
+    .imgage-girl{
+        width: 350px;
+    }
+    .about{
+        width: 450px;
+    }
+} 
+@media (max-width: 768px) {
+    .imgage-girl{
+        width: 300px;
+    }
+    .about{
+        width: 450px;
+    }
+}
+@media (max-width: 640px) {
+    .imageWrap{
+        text-align: center;
+    }
+    .imgageGirl{
+        width: 200px;
+        margin-left: 0px;
+    }
+    .about{
+        width: 80%;
+        margin-left: 20px;
+    }
+} 
 /*card*/
 .card{
     background-color: #A2997F !important;
