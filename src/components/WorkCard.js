@@ -23,10 +23,10 @@ function WorkCard (props){
         })}
         </Swiper>
         <Card.Body>
-            <Card.Title class="fontSize3 tx-p3 mt-3">{props.title}</Card.Title>
-            <p class="fontSize4 tx-p2">{props.skill}</p>
+            <Card.Title class="fontSize3 cardTextPosition mt30">{props.title}</Card.Title>
+            <p class="fontSize4 textCenter">{props.skill}</p>
             <p class="fontSize4 ">{props.about}</p>
-            <a class="fontSize4 tx-color" href={props.link}>{props.link}</a>
+            <a class="fontSize4 textColor" href={props.link}>{props.link}</a>
          </Card.Body>
      </Card>
 

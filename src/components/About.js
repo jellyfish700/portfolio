@@ -3,8 +3,8 @@ import girl from './image/girl.svg'
 
 const About = () => {
   return (
-    <div>
-      <p class="fontSize2 tx-p2 mt-5 mb-5">ABOUT</p>
+    <div id="about">
+      <p class="fontSize2 titlePosition">ABOUT</p>
       <div class="aboutWrap">
         <div class="imageWrap">
           <img class="imgageGirl" src={girl} alt="" />

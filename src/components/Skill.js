@@ -2,8 +2,8 @@ import React from 'react'
 
 const Skill = () => {
   return (
-    <div>
-      <p class="fontSize2 tx-p2">SKILL</p>
+    <div id="skill">
+      <p class="fontSize2 titlePosition">SKILL</p>
       <div class="skill">
         <p class="fontSize3">HTML/CSS/JavaScript</p>
         <p class="fontSize3">Java</p>

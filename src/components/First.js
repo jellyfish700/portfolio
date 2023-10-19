@@ -3,7 +3,7 @@ import React from 'react'
 const First = () => {
   return (
     <div class="first">
-        <p class="fontSize1 tx-p">SHIHO ASANO's<br></br>PORTFOLIO</p>
+        <p class="fontSize1 topTextPosition">SHIHO ASANO's<br></br>PORTFOLIO</p>
     </div>
   )
 }

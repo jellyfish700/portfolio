@@ -19,12 +19,12 @@ import d8 from './image/diary8.svg'
 // const img = [d0,d1,d2,d3,d4,d5,d6,d7,d8];
 const Work = ({title,skill,about}) => {
   return (
-    <div>
-      <p class="fontSize2 tx-p2 mb-5">WORK</p>
+    <div id="work">
+      <p class="fontSize2 titlePosition">WORK</p>
         <WorkCard 
           title={"ポートフォリオ"}
           image={[image1]}
-          classimg={"image_w"}
+          classimg={"cardImageW cardImage"}
           skill={"HTML / CSS / JavaScript / React"}
           about={"JavaScriptで作成し、ライブラリはReactを使用しています。フレームワークはBootStrapを使用しています。レスポンシブにも対応させる予定です。"}
           link={"https://github.com/jellyfish700/portfolio"}
@@ -32,14 +32,14 @@ const Work = ({title,skill,about}) => {
         <WorkCard 
           title={"学習向けソフトウェア"}
           image={[image2]}
-          classimg={"image_w"}
+          classimg={"cardImageW cardImage"}
           skill={"Python / tkinter"}
           about={"矢印をダイヤまで動かすことができます。ダイヤまで進むと、その動きをPythonで実行した時のテキストが表示されるようになっています。描画ライブラリはtkinterを使用しています。"}
         />
         <WorkCard 
           title={"チャットbot"}
           image={[image3]}
-          classimg={"image_h"}
+          classimg={"cardImageH cardImage"}
           skill={"Python / janome / tkinter"}
           about={"アーティスト名を入力するとそのアーティストの人気な曲が出力されるチャットbotを作成しました。入力された文字列を形態素解析するために、janomeを使用しました。描画ライブラリはtkinterを使用しています。"}
           link={"https://github.com/jellyfish700/spotify-web-api-chatbot"}
@@ -47,7 +47,7 @@ const Work = ({title,skill,about}) => {
         <WorkCard 
           title={"認知症予防の日記サービス"}
           image={[d0,d1,d2,d3,d4,d5,d6,d7,d8]}
-          classimg={"image_h"}
+          classimg={"cardImageH cardImage"}
           skill={"aws / Vue / node.js"}
           about={"株式会社エムティーアイのインターンで、チーム開発しました。日記の投稿、削除、検索、色やフォントの変更ができます。"}
           link={"https://github.com/jellyfish700/mti-intern"}
