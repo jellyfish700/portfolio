@@ -4,10 +4,6 @@ import pc from './image/pc.svg'
 import file from './image/file.svg'
 import mail from './image/mail.svg'
 
-
-
-
-
 const Header = () => {
   return (
     <header>
@@ -24,11 +20,10 @@ const Header = () => {
           </li>
          
           <li>
-            <a href='#'><img src={mail} alt="" />CONTACT</a>
+            <a href='#'><img src={mail} alt="" class="icon"/>CONTACT</a>
           </li>
         </ul>
       </nav>
-      
     </header>
   )
 }
