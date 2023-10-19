@@ -209,3 +209,9 @@ nav ul li a:hover{
 .cardWrap{
     display: flex;
 }
+
+/* skill */
+.skill{
+    width: 80%;
+    margin: 0 auto;
+}

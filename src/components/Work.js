@@ -1,11 +1,9 @@
 import React from 'react'
-import Card from 'react-bootstrap/Card';
 import WorkCard from './WorkCard.js'
 
 import image1 from './image/image1.svg'
 import image2 from './image/image2.svg'
 import image3 from './image/image3.svg'
-import image4 from './image/image4.svg'
 
 import d0 from './image/diary0.svg'
 import d1 from './image/diary1.svg'
@@ -20,11 +18,8 @@ import d8 from './image/diary8.svg'
 // const img = [d0,d1,d2,d3,d4,d5,d6,d7,d8];
 const Work = ({title,skill,about}) => {
   return (
-   
-
     <div>
-      <p class="fs-2 tx-p2 mb-5">WORK</p> 
-      
+      <p class="fs-2 tx-p2 mb-5">WORK</p>
         <WorkCard 
           title={"ポートフォリオ"}
           image={[image1]}
@@ -57,9 +52,6 @@ const Work = ({title,skill,about}) => {
           link={"https://github.com/jellyfish700/mti-intern"}
         />
     </div>
-
-
-    
   )
 }
 
