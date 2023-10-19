@@ -1,11 +1,10 @@
 import React from 'react'
-import Card from 'react-bootstrap/Card';
 import WorkCard from './WorkCard.js'
 
 import image1 from './image/image1.svg'
 import image2 from './image/image2.svg'
 import image3 from './image/image3.svg'
-import image4 from './image/image4.svg'
+import image5 from './image/image5.svg'
 
 import d0 from './image/diary0.svg'
 import d1 from './image/diary1.svg'
@@ -20,14 +19,9 @@ import d8 from './image/diary8.svg'
 // const img = [d0,d1,d2,d3,d4,d5,d6,d7,d8];
 const Work = ({title,skill,about}) => {
   return (
-   
-
     <div>
-      <p class="fs-2 tx-p2 mb-5">WORK</p> 
-      <div class="wrap">
+      <p class="fontSize2 tx-p2 mb-5">WORK</p>
         <WorkCard 
-          class={"card left card-row-m"}
-          classtx={"fs-3 tx-p4"}
           title={"ポートフォリオ"}
           image={[image1]}
           classimg={"image_w"}
@@ -36,19 +30,13 @@ const Work = ({title,skill,about}) => {
           link={"https://github.com/jellyfish700/portfolio"}
         />
         <WorkCard 
-          class={"card left card-row-m"}
-          classtx={"fs-3 tx-p4"}
           title={"学習向けソフトウェア"}
           image={[image2]}
           classimg={"image_w"}
           skill={"Python / tkinter"}
           about={"矢印をダイヤまで動かすことができます。ダイヤまで進むと、その動きをPythonで実行した時のテキストが表示されるようになっています。描画ライブラリはtkinterを使用しています。"}
         />
-      </div>
-      <div class="wrap">
         <WorkCard 
-          class={"card left card-row-l"}
-          classtx={"fs-3 tx-p3"}
           title={"チャットbot"}
           image={[image3]}
           classimg={"image_h"}
@@ -57,8 +45,6 @@ const Work = ({title,skill,about}) => {
           link={"https://github.com/jellyfish700/spotify-web-api-chatbot"}
         />
         <WorkCard 
-          class={"card left card-row-l"}
-          classtx={"fs-3 tx-p3"}
           title={"認知症予防の日記サービス"}
           image={[d0,d1,d2,d3,d4,d5,d6,d7,d8]}
           classimg={"image_h"}
@@ -66,11 +52,15 @@ const Work = ({title,skill,about}) => {
           about={"株式会社エムティーアイのインターンで、チーム開発しました。日記の投稿、削除、検索、色やフォントの変更ができます。"}
           link={"https://github.com/jellyfish700/mti-intern"}
         />
-      </div>
+        <WorkCard 
+          title={"関連アーティスト可視化ソフトウェア"}
+          image={[image5]}
+          classimg={"image_w"}
+          skill={"Java / Processing"}
+          about={"指定したアーティストの関連情報が可視化できます。SpotifyAPIを使用して、関連情報を入手しています。"}
+          link={"https://github.com/jellyfish700/spotify-web-api-relevance"}
+        />
     </div>
-
-
-    
   )
 }
 

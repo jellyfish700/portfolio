@@ -9,7 +9,7 @@ import { EffectFade, Navigation, Pagination } from 'swiper/modules';
 function WorkCard (props){
   return (
     <>
-     <Card className={props.class}>
+     <Card className="card">
         <Swiper
             effect={'coverflow'}
             navigation={true}
@@ -23,10 +23,10 @@ function WorkCard (props){
         })}
         </Swiper>
         <Card.Body>
-            <Card.Title class={props.classtx}>{props.title}</Card.Title>
-            <p class="fs-4 tx-p2">{props.skill}</p>
-            <p class="fs-5 tx-p2">{props.about}</p>
-            <a class="fs-5 tx-p2 tx-color" href={props.link}>{props.link}</a>
+            <Card.Title class="fontSize3 tx-p3 mt-3">{props.title}</Card.Title>
+            <p class="fontSize4 tx-p2">{props.skill}</p>
+            <p class="fontSize4 ">{props.about}</p>
+            <a class="fontSize4 tx-color" href={props.link}>{props.link}</a>
          </Card.Body>
      </Card>
 

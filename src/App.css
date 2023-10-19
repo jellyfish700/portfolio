@@ -1,6 +1,6 @@
 .App{
-    width: 100%;
-    font-size: 18px;
+    margin: 0 auto ;
+    max-width: 1920px;
     color: #A2997F;
 }
 @media (max-width: 640px) {
@@ -13,6 +13,8 @@
         display:none;
     }
 }
+
+/* header */
 header{
     position: sticky;
     background-color: #CFDEDF;
@@ -32,12 +34,7 @@ nav{
 nav ul li{
     list-style: none;
     display: inline-block;
-    margin-top: -5px;
-}
-@media (max-width: 640px) {
-    nav ul li{
-        display: flex;
-    }
+    margin-top: 5px;
 }
 nav ul li a {
     text-decoration: none;
@@ -45,6 +42,14 @@ nav ul li a {
     transition: all 0.2s;
     font-size: 28px;
     margin-left: 20px;
+}
+@media (max-width: 640px) {
+    nav ul li{
+        display: flex;
+    }
+    nav ul li a {
+        font-size: 20px;
+    }
 }
 nav ul li a:hover{
     color: white;
@@ -57,45 +62,37 @@ nav ul li a:hover{
 .navbar-collapse{
     background-color: #CFDEDF;
 }
+
 /* text */
 .first{
     margin-top: -100px;
     height: 800px;
     background-color: #CFDEDF;
 }
-.fs-1{
-    font-size: 120px;
+.fontSize1{
+    font-size: 100px;
     font-weight: bold;
 }
-@media (max-width: 1024px) {
-    .fs-1{
-        font-size: 100px;
-    }
-} 
 @media (max-width: 768px) {
-    .fs-1{
+    .fontSize1{
         font-size: 80px;
     }
 }
 @media (max-width: 640px) {
-    .fs-1{
+    .fontSize1{
         font-size: 50px;
     }
-} 
-.fs-2{
-    font-size: 50px;
+}
+.fontSize2{
+    font-size: 36px;
     font-weight: bold;
 }
-.fs-3{
-    font-size: 32px;
+.fontSize3{
+    font-size: 28px;
     font-weight: bold;
 }
-.fs-4{
-    font-size: 24px;
-    font-weight: bold;
-}
-.fs-5{
-    font-size: 18px;
+.fontSize4{
+    font-size: 20px;
     font-weight: bold;
 }
 .tx-p{
@@ -107,11 +104,6 @@ nav ul li a:hover{
 }
 .tx-p3{
     text-align: center;
-    margin-top: -30px;
-    margin-bottom: 20px; 
-}
-.tx-p4{
-    text-align: center;
     margin-top: -50px;
     margin-bottom: 10px; 
 }
@@ -122,11 +114,18 @@ nav ul li a:hover{
     color: white;
 }
 
-.left{
-    float: left;
-}
-.wrap{
-    display:flex;
+@media (min-width: 640px) {
+    .left{
+        float: left;
+    }
+    .aboutWrap{
+        display:flex;
+        width: 1000px;
+        margin: 0 auto;
+    }
+} 
+.mt-3{
+    margin-top: 30px;
 }
 .mt-5{
     margin-top: 50px;
@@ -136,30 +135,60 @@ nav ul li a:hover{
 }
 /* about */
 .imgage-girl{
-    margin-left: 100px;
     margin-top: -50px;
-    
+    margin-left: 50px;
 }
 .about{
-    padding-left: 100px;
-    width: 700px;
+    width: 600px;
 }
 
+@media (max-width: 1024px) {
+    .imgage-girl{
+        width: 350px;
+    }
+    .about{
+        width: 450px;
+    }
+    .aboutWrap{
+        width: 800px;
+    }
+} 
+@media (max-width: 768px) {
+    .imgage-girl{
+        width: 300px;
+    }
+    .about{
+        width: 450px;
+    }
+    .aboutWrap{
+        width: 600px;
+    }
+}
+@media (max-width: 640px) {
+    .imageWrap{
+        text-align: center;
+    }
+    .imgageGirl{
+        width: 200px;
+        margin-left: 0px;
+    }
+    .about{
+        width: 80%;
+        margin-left: 20px;
+    }
+} 
 /*card*/
 .card{
     background-color: #A2997F !important;
-    color: white;
-    margin-left: 100px;
-    margin-bottom: 100px;
-    width:40%;
+    color: white !important;
+    width:80%;
+    margin: 0 auto 100px auto;   
 }
 .icon{
     margin-bottom: 5px;
     margin-right: 1px;
 }
-.card-row-m{
-    height: 650px;
-}
+
 .card-row-l{
     height: 800px;
 }
@@ -170,12 +199,21 @@ nav ul li a:hover{
 .image_h{
     margin: auto;
     display: block;
-    height: 85%;
+    width: 60%;
     margin-top: 30px;
 }
 .image_w{
     margin: auto;
     display: block;
-    height: 75%;
+    width: 75%;
     margin-top: 30px;
+}
+.cardWrap{
+    display: flex;
+}
+
+/* skill */
+.skill{
+    width: 80%;
+    margin: 0 auto;
 }
