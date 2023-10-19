@@ -8,7 +8,7 @@ const Header = () => {
   return (
     <header>
       <nav class="mobile">
-          <button class="btn topButton fs-2" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+          <button class="btn topButton fontSize2" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
             portfolio
           </button>
           <div class="collapse navbar-collapse" id="navbarNav">

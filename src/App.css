@@ -1,7 +1,6 @@
 .App{
     margin: 0 auto ;
-    max-width: 1284px;
-    font-size: 18px;
+    max-width: 1920px;
     color: #A2997F;
 }
 @media (max-width: 640px) {
@@ -37,17 +36,20 @@ nav ul li{
     display: inline-block;
     margin-top: 5px;
 }
-@media (max-width: 640px) {
-    nav ul li{
-        display: flex;
-    }
-}
 nav ul li a {
     text-decoration: none;
     color: #A2997F;
     transition: all 0.2s;
     font-size: 28px;
     margin-left: 20px;
+}
+@media (max-width: 640px) {
+    nav ul li{
+        display: flex;
+    }
+    nav ul li a {
+        font-size: 20px;
+    }
 }
 nav ul li a:hover{
     color: white;
@@ -67,39 +69,30 @@ nav ul li a:hover{
     height: 800px;
     background-color: #CFDEDF;
 }
-.fs-1{
-    font-size: 120px;
+.fontSize1{
+    font-size: 100px;
     font-weight: bold;
 }
-@media (max-width: 1024px) {
-    .fs-1{
-        font-size: 100px;
-    }
-} 
 @media (max-width: 768px) {
-    .fs-1{
+    .fontSize1{
         font-size: 80px;
     }
 }
 @media (max-width: 640px) {
-    .fs-1{
+    .fontSize1{
         font-size: 50px;
     }
-} 
-.fs-2{
-    font-size: 50px;
+}
+.fontSize2{
+    font-size: 36px;
     font-weight: bold;
 }
-.fs-3{
-    font-size: 32px;
+.fontSize3{
+    font-size: 28px;
     font-weight: bold;
 }
-.fs-4{
-    font-size: 24px;
-    font-weight: bold;
-}
-.fs-5{
-    font-size: 18px;
+.fontSize4{
+    font-size: 20px;
     font-weight: bold;
 }
 .tx-p{
