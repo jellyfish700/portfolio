@@ -35,7 +35,7 @@ nav{
 nav ul li{
     list-style: none;
     display: inline-block;
-    margin-top: -5px;
+    margin-top: 5px;
 }
 @media (max-width: 640px) {
     nav ul li{
@@ -111,11 +111,6 @@ nav ul li a:hover{
 }
 .tx-p3{
     text-align: center;
-    margin-top: -30px;
-    margin-bottom: 20px; 
-}
-.tx-p4{
-    text-align: center;
     margin-top: -50px;
     margin-bottom: 10px; 
 }
@@ -134,6 +129,9 @@ nav ul li a:hover{
         display:flex;
     }
 } 
+.mt-3{
+    margin-top: 30px;
+}
 .mt-5{
     margin-top: 50px;
 }
@@ -180,18 +178,15 @@ nav ul li a:hover{
 /*card*/
 .card{
     background-color: #A2997F !important;
-    color: white;
-    margin-left: 100px;
-    margin-bottom: 100px;
-    width:40%;
+    color: white !important;
+    width:80%;
+    margin: 0 auto 100px auto;   
 }
 .icon{
     margin-bottom: 5px;
     margin-right: 1px;
 }
-.card-row-m{
-    height: 650px;
-}
+
 .card-row-l{
     height: 800px;
 }
@@ -202,12 +197,15 @@ nav ul li a:hover{
 .image_h{
     margin: auto;
     display: block;
-    height: 85%;
+    width: 60%;
     margin-top: 30px;
 }
 .image_w{
     margin: auto;
     display: block;
-    height: 75%;
+    width: 75%;
     margin-top: 30px;
+}
+.cardWrap{
+    display: flex;
 }

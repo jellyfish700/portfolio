@@ -24,10 +24,8 @@ const Work = ({title,skill,about}) => {
 
     <div>
       <p class="fs-2 tx-p2 mb-5">WORK</p> 
-      <div class="wrap">
+      
         <WorkCard 
-          class={"card left card-row-m"}
-          classtx={"fs-3 tx-p4"}
           title={"ポートフォリオ"}
           image={[image1]}
           classimg={"image_w"}
@@ -36,19 +34,13 @@ const Work = ({title,skill,about}) => {
           link={"https://github.com/jellyfish700/portfolio"}
         />
         <WorkCard 
-          class={"card left card-row-m"}
-          classtx={"fs-3 tx-p4"}
           title={"学習向けソフトウェア"}
           image={[image2]}
           classimg={"image_w"}
           skill={"Python / tkinter"}
           about={"矢印をダイヤまで動かすことができます。ダイヤまで進むと、その動きをPythonで実行した時のテキストが表示されるようになっています。描画ライブラリはtkinterを使用しています。"}
         />
-      </div>
-      <div class="wrap">
         <WorkCard 
-          class={"card left card-row-l"}
-          classtx={"fs-3 tx-p3"}
           title={"チャットbot"}
           image={[image3]}
           classimg={"image_h"}
@@ -57,8 +49,6 @@ const Work = ({title,skill,about}) => {
           link={"https://github.com/jellyfish700/spotify-web-api-chatbot"}
         />
         <WorkCard 
-          class={"card left card-row-l"}
-          classtx={"fs-3 tx-p3"}
           title={"認知症予防の日記サービス"}
           image={[d0,d1,d2,d3,d4,d5,d6,d7,d8]}
           classimg={"image_h"}
@@ -66,7 +56,6 @@ const Work = ({title,skill,about}) => {
           about={"株式会社エムティーアイのインターンで、チーム開発しました。日記の投稿、削除、検索、色やフォントの変更ができます。"}
           link={"https://github.com/jellyfish700/mti-intern"}
         />
-      </div>
     </div>
 
 
